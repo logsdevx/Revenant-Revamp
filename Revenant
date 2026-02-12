@@ -1,6 +1,6 @@
 local library = {}
 library.Flags = {}
-library.DefaultColor = Color3.fromRGB(56, 207, 154)
+library.DefaultColor = Color3.fromRGB(79, 162, 255)
 
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
@@ -21,12 +21,12 @@ local ITEM_HEIGHT = IsMobile and 32 or 42
 local FONT_SIZE = IsMobile and 11 or 14
 local TITLE_FONT_SIZE = IsMobile and 12 or 15
 
--- Original theme colors
+-- Original theme colors with blue accent
 local THEME = {
     Background = Color3.fromRGB(29, 29, 29),
     Secondary = Color3.fromRGB(36, 36, 36),
     Hover = Color3.fromRGB(44, 44, 44),
-    Accent = Color3.fromRGB(56, 207, 154),
+    Accent = Color3.fromRGB(79, 162, 255),
     Text = Color3.fromRGB(214, 214, 214),
     Border = Color3.fromRGB(50, 50, 50)
 }
